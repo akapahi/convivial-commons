@@ -1,0 +1,44 @@
+{
+    "topics": [
+      { "id": 1, "topic": "Kochi Green Hydrogen Valley (KGH₂ Hub): A ₹18,500+ crore initiative to establish a green hydrogen hub in Kochi, including electrolyser and ammonia plants and renewable energy infrastructure, supplying hydrogen for transport (KSRTC buses) and industry (BPCL). Pros: Positions Kochi as a national clean-energy leader; long-term reduction in fossil fuel dependence and industrial emissions. Cons: High capital intensity; significant water demand and land use pressures unless desalination and recycling are strictly integrated." },
+  
+      { "id": 2, "topic": "Cochin Port Outer Harbour Project: A new deep-sea outer harbour off Puthuvype to reduce reliance on dredging in the inner port, involving large north and south breakwaters to manage sediment flow. Pros: Could lower long-term maintenance costs and improve port efficiency by reducing frequent dredging. Cons: Major alteration of coastal dynamics; risk of erosion and shoreline instability in nearby areas." },
+  
+      { "id": 3, "topic": "Integrated Urban Regeneration and Water Transport System (IURWTS): A ₹3,000+ crore programme to rejuvenate six major canals, restore navigability, remove encroachments, and integrate water transport and tourism. Pros: Improved urban sanitation, flood management, and alternative transport corridors. Cons: Risk of over-engineering canals, potentially reducing ecological functions and long-term resilience." },
+  
+      { "id": 4, "topic": "Brahmapuram Waste-to-Energy & Bio-CNG Plant: Conversion of the Brahmapuram dumpsite into a Waste-to-Energy facility and a BPCL-operated Bio-CNG plant to process organic waste. Pros: Addresses Kochi’s chronic waste crisis and reduces landfill fires. Cons: Public concern over toxic emissions like dioxins and furans if incineration is poorly monitored, and weak incentives for long-term waste reduction." },
+  
+      { "id": 5, "topic": "SilverLine (K-Rail) Project: A semi-high-speed rail corridor from Thiruvananthapuram to Kasaragod passing through Kochi for faster intercity travel. Pros: Potential shift from road to rail, reducing congestion and travel time. Cons: Disruption to wetlands, paddy fields, and backwaters in Ernakulam, blocking natural water flow and worsening monsoon floods." },
+  
+      { "id": 6, "topic": "Bliss City, Kakkanad: A ₹700+ crore mixed-use entertainment and commercial township by Kochi Metro Rail Ltd to generate non-fare revenue. Pros: Revenue diversification for KMRL; job creation. Cons: Intensifies urban density, water demand, heat island effect, and strain on drainage and public infrastructure." },
+  
+      { "id": 7, "topic": "Kochi Coastal Highway (Chellanam–Fort Kochi Stretch): Part of Kerala’s 625-km coastal highway involving widening and new road alignments. Pros: Improved coastal connectivity and emergency access. Cons: Runs through sensitive CRZ zones, threatens mangroves, alters coastal landscapes, and risks displacement of fishing communities and heritage areas." },
+  
+      { "id": 8, "topic": "Chellanam Tetrapod Seawall (Phase II): Extension of tetrapod seawalls northward from Chellanam to curb severe coastal erosion. Pros: Immediate protection for vulnerable coastal settlements. Cons: Hard-engineering may shift erosion elsewhere and reduce beach accessibility over time." },
+  
+      { "id": 9, "topic": "Kochi Metro Phase II (Pink Line): Metro extension from JLN Stadium to Kakkanad (Infopark/SmartCity). Pros: Long-term reduction in traffic congestion and private vehicle use. Cons: Short-term construction impacts including tree loss, dust, noise, and debris management issues." },
+  
+      { "id": 10, "topic": "BPCL Petrochemical Park Expansion: Expansion near BPCL Kochi Refinery at Ambalamugal to produce specialty chemicals. Pros: Industrial growth, skilled employment, and downstream manufacturing. Cons: Safety concerns for residents, increased VOC emissions, industrial effluents, and added stress in an already polluted zone." },
+  
+      { "id": 11, "topic": "Goshree Island Connectivity Expansion: Expansion of the Goshree corridor with new bridges, widened roads, and junction upgrades. Pros: Improves mobility for island residents and boosts trade and emergency access. Cons: Fragmentation of wetlands and mangroves, disrupted tidal exchange, and impacts on fish breeding zones." },
+  
+      { "id": 12, "topic": "Marine Drive–Bolgatty–Vypeen Waterfront Redevelopment: Extension of promenades, leisure spaces, hospitality zones, and cruise-linked infrastructure. Pros: Enhances public spaces, tourism appeal, and city branding. Cons: Hardened shorelines reduce intertidal habitats, mangrove filtration, and increase heat and light pollution." },
+  
+      { "id": 13, "topic": "Kochi Smart City Expansion (Phase II & Peripheral IT Zones): Expansion of IT infrastructure beyond the current Smart City footprint. Pros: Employment generation and strengthened tech ecosystem. Cons: Increased groundwater extraction, heat-island effects, waste loads, and loss of wetlands and permeable land." },
+  
+      { "id": 14, "topic": "Water Metro Phase Expansion: Scaling up electric ferry services to connect more islands and peripheral backwater settlements. Pros: Low-emission transport and inclusive mobility. Cons: Terminal construction and increased vessel movement may disturb aquatic habitats and sediment dynamics." },
+  
+      { "id": 15, "topic": "Kochi Flood Mitigation & Stormwater Master Plan: Drainage upgrades, pumping stations, canal desilting, and flood-control infrastructure. Pros: Reduces flood damage, health risks, and economic losses. Cons: Overreliance on engineered drainage can disconnect natural floodplains and reduce ecological buffering." },
+  
+      { "id": 16, "topic": "Kalamassery–Eloor Industrial Corridor Upgradation: Modernization and expansion of industrial infrastructure in the Eloor–Edayar–Kalamassery belt. Pros: Improved industrial efficiency, job creation, and state revenue. Cons: Intensifies air, water, and soil contamination in an already stressed industrial zone." },
+  
+      { "id": 17, "topic": "West Kochi Tourism Circuit (Fort Kochi–Mattancherry): Tourism-led redevelopment of heritage streets, museums, and cruise tourism zones. Pros: Supports local economy, crafts, and cultural visibility. Cons: Concentrated tourism increases waste, sewage, and shoreline pressure on fragile habitats." },
+  
+      { "id": 18, "topic": "LNG-linked Energy & Logistics Expansion at Puthuvype: Growth of storage, pipelines, and energy-intensive industries around the LNG terminal. Pros: Energy security and positioning Kochi as a regional gas hub. Cons: Coastal habitat fragmentation, thermal and chemical pollution, and long-term ecological degradation." },
+  
+      { "id": 19, "topic": "Urban Housing & High-rise Redevelopment Projects: Redevelopment of aging residential areas into high-density apartment complexes. Pros: Addresses housing demand and limits horizontal sprawl. Cons: Overburdens water, sewage, and roads; increases runoff, heat, and flood risks." },
+  
+      { "id": 20, "topic": "Cruise Tourism Infrastructure Expansion: Expanded international cruise terminals, passenger services, and port-side amenities. Pros: High-value tourism and growth of hospitality and service sectors. Cons: Heavy resource footprint, marine and air pollution, and limited benefits to local communities if poorly regulated." }
+    ]
+  }
+  
