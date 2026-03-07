@@ -18,14 +18,6 @@ WiFiUDP udp;
 
 uint8_t packetBuffer[600];
 
-IPAddress local_IP(192, 168, 1, 50);
-IPAddress gateway(192, 168, 1, 1);
-IPAddress subnet(255, 255, 255, 0);
-
-// Optional but recommended
-IPAddress primaryDNS(8, 8, 8, 8);
-IPAddress secondaryDNS(8, 8, 4, 4);
-
 // ===== MOTOR PULSE LOGIC =====
 bool motorRunning = false;
 
@@ -45,9 +37,6 @@ void setup() {
   ledcAttach(PWM_PIN, PWM_FREQ, PWM_RES);
   ledcWrite(PWM_PIN, 0);
 
-  // if (!WiFi.config(local_IP, gateway, subnet, primaryDNS, secondaryDNS)) {
-  //   Serial.println("STA Failed to configure");
-  // }
   WiFi.begin(ssid, password);
   while (WiFi.status() != WL_CONNECTED) {
     delay(300);
