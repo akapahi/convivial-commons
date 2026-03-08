@@ -195,6 +195,7 @@ def performance_loop():
         if stored_payload and agent in stored_payload.responses:
             response_text = stored_payload.responses[agent]
             for printer in [USB_PRINTER, NET_PRINTER]:
+                print(f"[PRINT] Printing response on {printer} - {agent}: {response_text}")
                 try:
                     print_block(printer, agent, response_text)
                 except Exception as e:
@@ -204,6 +205,7 @@ def performance_loop():
         dmx_data[ch - 1] = MOTOR_OFF
         dmx_data[light_channel - 1] = LIGHT_OFF
         send_universe()
+        print(f"[MOTOR] Channel {ch} ({agent}) OFF")
 
         time.sleep(PAUSE_TIME)
 
