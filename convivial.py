@@ -98,20 +98,21 @@ VOTE: YES or VOTE: NO"""
 def start_discussion(req: DebateRequest):
     global conversation_log
 
-    # â Validate topic_id
+    #Validate topic_id
     if req.topic_id not in TOPIC_LOOKUP:
         raise HTTPException(status_code=400, detail="Invalid topic_id")
 
     selected_topic = TOPIC_LOOKUP[req.topic_id]
-
-    # â Reject if drama server busy
+    print(f"[START DISCUSSION] topic={selected_topic}")
+    
+    #Reject if drama server busy
     if drama_is_running():
         raise HTTPException(
             status_code=409,
             detail="Drama server is currently running a performance"
         )
 
-    # â¶ Start drama
+    #Start drama
     drama_start(selected_topic)
 
     conversation_log = []
@@ -125,6 +126,7 @@ def start_discussion(req: DebateRequest):
 
     for name, prompt in CHARACTERS.items():
         reply = run_agent(prompt, selected_topic, conversation_log)
+        print(f"[GPT RESPONSE] {name}={reply}")
 
         conversation_log.append({
             "role": "assistant",
