@@ -246,11 +246,13 @@ def start(payload: StartPayload):
     global running, stored_prompt
 
     if running:
+        print("[START] already running")
         return {"status": "already running"}
 
     stored_prompt = payload.prompt
 
     threading.Thread(target=performance_loop, daemon=True).start()
+    print("[START] started")
     return {"status": "started"}
 
 
@@ -261,7 +263,8 @@ def add_response(payload: DebatePayload):
     response_received = True
     stored_payload = payload
 
-    print("[RESPONSE] Debate payload received")
+    print("[RESPONSE] Debate payload received: ")
+    print(stored_payload)
     return {"status": "response received"}
 
 
